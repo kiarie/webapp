@@ -1,0 +1,4 @@
+<html>
+<h1>this is the class heirachy</h1>
+<%=@classheirachy%>
+</html>

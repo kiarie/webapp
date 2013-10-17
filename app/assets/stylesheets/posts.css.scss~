@@ -1,0 +1,12 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1{
+font-family:tahoma;
+background-color:#f2f2f2;
+//color:#f2f2f2;
+//font-size:12px;
+display:block;
+//float:left;
+//width:30%;
+}

@@ -1,0 +1,13 @@
+class SayHelloController < ApplicationController
+	def showfamily(aclass,msg)
+	if(aclass!=nil) then
+	msg+="#{aclass}"
+	showfamily(aclass.superclass,msg)
+	else
+	render :text=> msg
+	end
+	end
+	def index
+	showfamily(self.class,"the Classes are ...")
+	end
+end

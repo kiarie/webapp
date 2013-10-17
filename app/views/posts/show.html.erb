@@ -1,0 +1,21 @@
+<h1>Post on</h1>
+<table>
+<tr><td>
+<p id="notice"><%= notice %></p>
+  <h2><%= @post.title %></h2>
+<p>
+  <b>Body:</b>
+  <%= @post.body %>
+</p>
+
+<p>
+  <b>Posted on:</b>
+  <%= @post.created_at %>
+</p>
+
+</td></tr>
+<tr><td>
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back to Posts', posts_path %>
+</td></tr>
+</table>
